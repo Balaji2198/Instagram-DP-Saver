@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Instagram DP Saver",
+    "description": "Download the Instagram DP of any (public/private) profiles",
+    "homepage_url": "http://balaji2198.github.io/",
+    "version": "1.0",
+
+    "icons": {
+      "32": "img/Insta_download.jpg"
+    },
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "browser_action": {
+        "default_icon": "img/Insta_download.jpg",
+        "default_title": "Instagram DP Saver"
+    },
+
+    "permissions": [
+        "https://www.instagram.com/"
+    ]
+}
